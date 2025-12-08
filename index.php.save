@@ -1,0 +1,15 @@
+<?php
+$servername = "localhost";
+$username = "lib_admin"; 
+$password = "ZnphaianhL2004"; 
+$dbname = "library_db";
+
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+  die("Kết nối thất bại: " . $conn->connect_error);
+}
+echo "<h1>Library</h1>";
+echo "Database Connection succesfully";
+?>
