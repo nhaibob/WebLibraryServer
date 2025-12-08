@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "lib_admin"; 
-$password = "ZnphaianhL2004"; 
+$password = "Admin@123456"; 
 $dbname = "library_db";
 
 
